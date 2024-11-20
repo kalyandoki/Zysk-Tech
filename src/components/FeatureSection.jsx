@@ -12,7 +12,7 @@ const FeatureSection = () => {
       <div className="bg-grey-100 py-12 px-6 md:px-16">
         <div className="w-full flex-col items-center justify-center mx-auto rounded-3xl">
           <div className="flex items-center justify-center">
-            <div className="flex w-1/3 items-center justify-between border bg-[#f2dbf2] p-1 rounded-full shadow-sm mb-4">
+            <div className="flex md:w-1/3 items-center justify-between border bg-[#f2dbf2] p-1 rounded-full shadow-sm mb-4">
               <span className="text-md p-1 font-semibold bg-[#F9F5FF] text-[#6941C6] rounded-full">
                 New Feature
               </span>

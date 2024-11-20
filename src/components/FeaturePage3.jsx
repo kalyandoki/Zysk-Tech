@@ -1,9 +1,8 @@
 import { FaArrowRight } from "react-icons/fa";
+import { MdGroup } from "react-icons/md";
+import { HiLightningBolt } from "react-icons/hi";
 import { TbMessages } from "react-icons/tb";
-import { AiTwotoneThunderbolt } from "react-icons/ai";
-import { HiOutlineEmojiHappy } from "react-icons/hi";
-
-const FeaturePart3 = () => {
+const FeaturePage3 = () => {
   return (
     <div className="bg-white py-6 px-6 md:px-16">
       <div className="max-w-7xl mx-auto text-center">
@@ -56,7 +55,7 @@ const FeaturePart3 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <AiTwotoneThunderbolt className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <HiLightningBolt className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Deliver instant answers
               </p>
@@ -75,7 +74,7 @@ const FeaturePart3 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <HiOutlineEmojiHappy className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <MdGroup className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Manage your team with reports
               </p>
@@ -98,4 +97,4 @@ const FeaturePart3 = () => {
   );
 };
 
-export default FeaturePart3;
+export default FeaturePage3;

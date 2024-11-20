@@ -1,10 +1,10 @@
-import FeaturePart3 from "./FeaturePart3";
+import FeaturePage3 from "./FeaturePage3";
+import { FaSmile } from "react-icons/fa";
+import { FiLink } from "react-icons/fi";
+import { MdGroup } from "react-icons/md";
+import { HiLightningBolt } from "react-icons/hi";
 import { TbMessages } from "react-icons/tb";
-import { AiTwotoneThunderbolt } from "react-icons/ai";
-import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { TbMessageCircleHeart } from "react-icons/tb";
-import { GoFileSymlinkFile } from "react-icons/go";
-import { FaConnectdevelop } from "react-icons/fa";
 
 const FeaturePart2 = () => {
   return (
@@ -38,7 +38,7 @@ const FeaturePart2 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <AiTwotoneThunderbolt className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <HiLightningBolt className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Deliver instant answers
               </p>
@@ -51,7 +51,7 @@ const FeaturePart2 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <GoFileSymlinkFile className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <MdGroup className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Manage your team with reports
               </p>
@@ -65,7 +65,7 @@ const FeaturePart2 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <HiOutlineEmojiHappy className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <FaSmile className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Connect with customers
               </p>
@@ -76,10 +76,9 @@ const FeaturePart2 = () => {
               </p>
             </div>
           </div>
-
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <FaConnectdevelop className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <FiLink className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Connect the tools you already use
               </p>
@@ -106,17 +105,17 @@ const FeaturePart2 = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-50 py-10 px-6 md:px-16">
+      <div className="bg-white shadow-md border py-10 px-4 md:px-16 rounded-lg">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center mb-6">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-vki94Vt8Jq9QzGLr0K3Ulr11Gcf38kBhbw&s"
+              src="https://i.imgur.com/G7KO6dF.jpeg"
               alt="Company Logo"
-              className="mx-auto h-20 rounded-2xl"
+              className="mx-auto w-1/4 h-10 rounded-2xl"
             />
           </div>
 
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-8">
             We’ve been using Untitled to kick start every new project and can’t
             imagine working without it.
           </h2>
@@ -134,7 +133,7 @@ const FeaturePart2 = () => {
           </div>
         </div>
       </div>
-      <FeaturePart3 />
+      <FeaturePage3 />
     </>
   );
 };

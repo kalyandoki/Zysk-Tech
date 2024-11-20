@@ -1,8 +1,5 @@
-import BlogPart from "./BlogPart";
 import FeaturePart2 from "./FeaturePart2";
-import Footer from "./Footer";
-import Logo from "./Logo";
-import QuestionPart from "./QuestionPart";
+import Logo from "./LogoPage";
 import { FaArrowRight } from "react-icons/fa";
 import { RiVideoLine } from "react-icons/ri";
 
@@ -12,15 +9,15 @@ const FeatureSection = () => {
       <div className="bg-grey-100 py-12 px-6 md:px-16">
         <div className="w-full flex-col items-center justify-center mx-auto rounded-3xl">
           <div className="flex items-center justify-center">
-            <div className="flex md:w-1/3 items-center justify-between border bg-[#f2dbf2] p-1 rounded-full shadow-sm mb-4">
-              <span className="text-md p-1 font-semibold bg-[#F9F5FF] text-[#6941C6] rounded-full">
+            <div className="flex w-full md:w-1/3 items-center justify-between border bg-[#f9eff9] rounded-full shadow-md mb-4 p-1">
+              <span className="text-sm ml-1 font-semibold bg-[#ffffff] text-[#6941C6] p-2 rounded-full md:p-2">
                 New Feature
               </span>
-              <div className="md:flex flex items-center">
-                <p className=" text-md text-[#6941C6]">
+              <div className="md:flex flex items-center md:p-2">
+                <p className="text-sm md:text-lg text-[#6941C6]">
                   Check out the team dashboard
                 </p>
-                <FaArrowRight className="text-[#6941C6] md:text-sm ml-2" />
+                <FaArrowRight className="text-[#6941C6] md:text-sm md:ml-1" />
               </div>
             </div>
           </div>
@@ -37,14 +34,14 @@ const FeatureSection = () => {
             </p>
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-              <div className="flex items-center gap-4 bg-gray-200 text-gray-800 px-6 py-3 rounded-md shadow-md hover:bg-blue-700">
+              <div className="flex items-center gap-2 bg-gray-200 text-gray-800 px-6 py-3 rounded-md shadow-md hover:bg-blue-700">
                 <RiVideoLine className="text-gray-500 text-2xl" />
                 <span className="text-sm md:text-base font-medium text-gray-700">
                   Demo
                 </span>
               </div>
 
-              <button className=" bg-[#6941C6] text-sm md:text-base font-medium text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-700">
+              <button className="bg-[#6941C6] text-sm md:text-base font-medium text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-700">
                 Sign Up
               </button>
             </div>
@@ -58,9 +55,6 @@ const FeatureSection = () => {
         <Logo />
         <FeaturePart2 />
       </div>
-      <QuestionPart />
-      <BlogPart />
-      <Footer />
     </>
   );
 };

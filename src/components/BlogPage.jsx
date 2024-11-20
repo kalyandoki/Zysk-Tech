@@ -1,4 +1,4 @@
-const BlogPart = () => {
+const BlogPage = () => {
   return (
     <>
       <div className="bg-white py-12 px-6 md:px-16">
@@ -124,4 +124,4 @@ const BlogPart = () => {
   );
 };
 
-export default BlogPart;
+export default BlogPage;

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { CiCirclePlus } from "react-icons/ci";
 import { CiCircleMinus } from "react-icons/ci";
 
-const QuestionPart = () => {
+const FaQuestionPage = () => {
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
@@ -12,34 +12,34 @@ const QuestionPart = () => {
 
   return (
     <>
-      <div className="bg-white py-12 px-6 md:px-16">
+      <div className="bg-white py-12 shadow-md px-6 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-2xl md:text-3xl font-semibold text-gray-900">
             Frequently asked questions
           </h1>
 
-          <p className="text-lg text-[#475467] mb-8">
+          <p className="text-md md:text-lg text-[#475467] p-2 md:p-4 mb-4 md:mb-6 ">
             Everything you need to know about the product and billing.
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto space-y-6">
+        <div className="max-w-2xl mx-auto space-y-6">
           <div>
             <div className="flex items-center justify-between">
-              <p className="text-sm md:text-xl font-bold text-gray-800">
+              <h1 className="text-sm md:text-lg font-semibold text-gray-800">
                 Is there a free trial available?
-              </p>
+              </h1>
 
               <button
                 onClick={() => {
                   setIsOpen1(!isOpen1);
                 }}
-                className="text-gray-500 hover:text-gray-800 text-xl font-bold"
+                className="text-gray-500 hover:text-gray-800 text-2xl font-bold"
               >
                 {isOpen1 ? (
-                  <CiCircleMinus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCircleMinus className="font-bold md:text-2xl text-gray-500" />
                 ) : (
-                  <CiCirclePlus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCirclePlus className="font-bold md:text-2xl text-gray-500" />
                 )}
               </button>
             </div>
@@ -57,7 +57,7 @@ const QuestionPart = () => {
 
           <div>
             <div className="flex items-center justify-between">
-              <p className="text-sm md:text-xl font-bold text-gray-800">
+              <p className="text-sm md:text-lg font-semibold text-gray-800">
                 Can I change my plan later?
               </p>
 
@@ -68,17 +68,23 @@ const QuestionPart = () => {
                 className="text-gray-500 hover:text-gray-800 text-xl font-bold"
               >
                 {isOpen2 ? (
-                  <CiCircleMinus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCircleMinus className="font-bold md:text-2xl text-gray-500" />
                 ) : (
-                  <CiCirclePlus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCirclePlus className="font-bold md:text-2xl text-gray-500" />
                 )}
               </button>
             </div>
 
             {isOpen2 && (
               <p className="mt-4 text-sm md:text-base text-gray-600">
-                Yes, you can change your plan later with some services,
-                including Later, Cognito Forms.
+                Yes, you can change your plan later. Whether youre referring to
+                a subscription plan, project scope, or technology stack, many
+                plans allow for adjustments over time based on your evolving
+                needs. Its important to understand the terms of the plan you’re
+                on (such as contract length or cancellation fees) if its related
+                to a service or subscription. However, in most cases, you can
+                modify your approach, features, or strategy as you progress
+                through your project or service.
               </p>
             )}
 
@@ -87,7 +93,7 @@ const QuestionPart = () => {
 
           <div>
             <div className="flex items-center justify-between">
-              <p className="text-sm md:text-xl font-bold text-gray-800">
+              <p className="text-sm md:text-lg font-semibold text-gray-800">
                 What is your cancellation policy?
               </p>
 
@@ -98,18 +104,23 @@ const QuestionPart = () => {
                 className="text-gray-500 hover:text-gray-800 text-xl font-bold"
               >
                 {isOpen3 ? (
-                  <CiCircleMinus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCircleMinus className="font-bold md:text-2xl text-gray-500" />
                 ) : (
-                  <CiCirclePlus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCirclePlus className="font-bold md:text-2xl text-gray-500" />
                 )}
               </button>
             </div>
 
             {isOpen3 && (
               <p className="mt-4 text-sm md:text-base text-gray-600">
-                A cancellation policy is a set of rules and guidelines that
-                outline the terms and conditions for canceling a reservation,
-                booking, or order
+                Notice Period: How far in advance you need to notify for
+                cancellation (e.g., immediate, 30 days). Refund Eligibility:
+                Whether youll receive a full, partial, or no refund, and if
+                applicable, any fees deducted. Contractual Obligations: If
+                you`re in a fixed-term agreement, there may be penalties for
+                early cancellation. Process: Steps to initiate cancellation,
+                such as contacting support, filling out a form, or using an
+                online portal.
               </p>
             )}
 
@@ -117,7 +128,7 @@ const QuestionPart = () => {
           </div>
           <div>
             <div className="flex items-center justify-between">
-              <p className="text-sm md:text-xl font-bold text-gray-800">
+              <p className="text-sm md:text-lg font-semibold text-gray-800">
                 Can other info be added to an invoice?
               </p>
 
@@ -128,18 +139,20 @@ const QuestionPart = () => {
                 className="text-gray-500 hover:text-gray-800 text-xl font-bold"
               >
                 {isOpen4 ? (
-                  <CiCircleMinus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCircleMinus className="font-bold md:text-2xl text-gray-500" />
                 ) : (
-                  <CiCirclePlus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCirclePlus className="font-bold md:text-2xl text-gray-500" />
                 )}
               </button>
             </div>
 
             {isOpen4 && (
               <p className="mt-4 text-sm md:text-base text-gray-600">
-                The mandatory invoice information such as the invoice number,
-                issue date, and payment terms are either updated automatically
-                or can be adjusted with a click or two
+                Customer Details: Customer`s tax ID (e.g., GSTIN, VAT number).
+                Contact person’s name and designation. Invoice Customizations:
+                Purchase Order (PO) number or reference. Project name or
+                description. Payment Details: Payment terms (e.g., `Net 30
+                days``). Bank account details for direct transfer.
               </p>
             )}
 
@@ -148,7 +161,7 @@ const QuestionPart = () => {
 
           <div>
             <div className="flex items-center justify-between">
-              <p className="text-sm md:text-xl font-bold text-gray-800">
+              <p className="text-sm md:text-lg font-semibold text-gray-800">
                 How does billing work?
               </p>
 
@@ -159,20 +172,23 @@ const QuestionPart = () => {
                 className="text-gray-500 hover:text-gray-800 text-xl font-bold"
               >
                 {isOpen5 ? (
-                  <CiCircleMinus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCircleMinus className="font-bold md:text-2xl text-gray-500" />
                 ) : (
-                  <CiCirclePlus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCirclePlus className="font-bold md:text-2xl text-gray-500" />
                 )}
               </button>
             </div>
 
             {isOpen5 && (
               <p className="mt-4 text-sm md:text-base text-gray-600">
-                Billing is the process when a business sends an invoice to the
-                payee or customer for the products or services provided and
-                collects payment. It is a crucial process in finance and helps
-                businesses manage their cash flow, track revenue, and maintain
-                accurate records.
+                1. Agreement on Terms Before billing starts, both parties agree
+                on pricing, payment terms (e.g., due dates, penalties for late
+                payments), and the billing cycle (e.g., monthly, one-time,
+                milestone-based). 2. Tracking Goods/Services Record the details
+                of what was provided (e.g., product quantities, hours of
+                service, subscription period). 3. Invoice Creation An invoice is
+                generated, which typically includes: Invoice number. Business
+                and customer details.
               </p>
             )}
 
@@ -181,7 +197,7 @@ const QuestionPart = () => {
 
           <div>
             <div className="flex items-center justify-between">
-              <p className="text-sm md:text-xl font-bold text-gray-800">
+              <p className="text-sm md:text-lg font-semibold text-gray-800">
                 How do I change my account email?
               </p>
 
@@ -192,23 +208,22 @@ const QuestionPart = () => {
                 className="text-gray-500 hover:text-gray-800 text-xl font-bold"
               >
                 {isOpen6 ? (
-                  <CiCircleMinus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCircleMinus className="font-bold md:text-2xl text-gray-500" />
                 ) : (
-                  <CiCirclePlus className="font-bold md:text-2xl text-gray-700" />
+                  <CiCirclePlus className="font-bold md:text-2xl text-gray-500" />
                 )}
               </button>
             </div>
 
             {isOpen6 && (
               <p className="mt-4 text-sm md:text-base text-gray-600">
-                Open your device Settings app and tap Google Your name. Manage
-                your Google Account. At the top, tap Personal info. Under Choose
-                what others see tap Go to About me. Under Personal contact info
-                or Work contact info, tap Edit . ... Under Email, add, edit, or
-                remove your email address. Tap OK.
+                Log In to Your Account Use your current credentials to access
+                your account. Navigate to Account Settings Look for a section
+                like `Profile,`` `Account Settings,`` or `Personal
+                Information.`` Find the Email Field Locate the option to edit
+                your email address.
               </p>
             )}
-            <hr className="mt-4 border-gray-300" />
           </div>
         </div>
 
@@ -252,4 +267,4 @@ const QuestionPart = () => {
   );
 };
 
-export default QuestionPart;
+export default FaQuestionPage;

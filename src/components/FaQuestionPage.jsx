@@ -12,7 +12,7 @@ const FaQuestionPage = () => {
 
   return (
     <>
-      <div className="bg-white py-12 shadow-md px-6 md:px-16">
+      <div className="bg-white py-4 shadow-md px-6 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-2xl md:text-3xl font-semibold text-gray-900">
             Frequently asked questions

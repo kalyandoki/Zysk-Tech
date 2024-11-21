@@ -105,7 +105,7 @@ const FeaturePage2 = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white shadow-md border py-10 px-4 md:px-16 rounded-lg">
+      <div className="bg-white shadow-md border py-10 px-4 md:px-16 rounded-lg md:w-full mb-6 md:mb-14">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center mb-6">
             <img
@@ -120,7 +120,7 @@ const FeaturePage2 = () => {
             imagine working without it.
           </h2>
 
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center gap-6 mb-10">
             <img
               src="https://s3-alpha-sig.figma.com/img/fcd7/e604/94e98ef4a34b3228a1783b7f500b0df6?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=npOE-K~i6hA8OvsL-lkmHTLZO0szKxBMK2dS-ibFk~M8TF1Zuyn5g2XC76wwKZfkbzxd4KKHU~GkoKsitYpmA38qrAkfDFnCijoMaeoZ3Jclmt26V6lVvOCxuTFARnL1yLhxW2b2HWShcAczS4MwUwZt3V2vr4uwTyYbYf5Dv7G1Z6vGLCpb90XfoTRWIbK1tNoQpbe1epuVYldwlzMG0xf7WDTRrQ2gVdjqQwskRDoAprK452J4-C87Sah0ynFq7gH7wspr7i0l3eeyuZfWlRUHYN3E06FLJgrxutC6zQhaELLdrtFfIRXvkzp25lDi3pGhLTw7zGkFuKgOV7wkwA__"
               alt="Candice Wu"

@@ -4,7 +4,7 @@ import { HiLightningBolt } from "react-icons/hi";
 import { TbMessages } from "react-icons/tb";
 const FeaturePage3 = () => {
   return (
-    <div className="bg-white py-6 px-6 md:px-16">
+    <div className="bg-white py-6 px-6 md:px-10">
       <div className="max-w-7xl mx-auto text-center">
         <div className="mb-12">
           <span className="text-md font-semibold p-2  bg-[#F9F5FF] text-[#6941C6] rounded-full">
@@ -20,7 +20,7 @@ const FeaturePage3 = () => {
           </p>
         </div>
 
-        <div className=" flex justify-center gap-4 mb-12">
+        <div className="flex justify-center gap-4 mb-12">
           <img
             src="https://s3-alpha-sig.figma.com/img/91ca/8938/7f26a92b60f8e7bf4bfe8c9f528cf3c1?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UjMp68SDPTXweu3bYd1bEp~dpwGLzEMbB8m42k5HyVN4XUJyd-DiQq1Jty9ls5VGsQQ1W3sR2qaNI-AhfrENiMfvgLO7EZ~j22ywRb1mkQYWKEVABsggelqDmAyqkmKMfckoNldW~hGrEqWs6AFlw1zz7ha3hDsxWha1vkMsa9mGTmF6SlzvAnCTWhW0Y3qPDGbnaJAFksymYFTPryXcDqy~7~omMpFbNbcBmjOISI0GhOhzN0Vp18JCyXe~0XByLt5Og-VBp8vJYKBdU5l~flN7jAwo6oojLQ0voD1h8ln03uVBgtgEfDh2Q1d9Fwq41tG-MmViEKCuklGDbhT65g__"
             alt="Small Image"
@@ -33,7 +33,7 @@ const FeaturePage3 = () => {
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
               <TbMessages className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />

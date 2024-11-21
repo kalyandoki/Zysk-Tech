@@ -16,17 +16,17 @@ const Navbar = () => {
           <a href="#" className="hover:text-blue-500 transition duration-200">
             Home
           </a>
-          <div className="md:flex text-gray-600 font-bold items-center">
+          <div className="md:flex  font-bold items-center">
             <a href="#" className="hover:text-blue-500 transition duration-200">
               Product
             </a>
-            <SlArrowDown className="mt-1 ml-2 md:text-sm" />
+            <SlArrowDown className="mt-1 ml-2 text-black md:text-sm" />
           </div>
-          <div className="md:flex text-gray-600 font-bold items-center">
+          <div className="md:flex  font-bold items-center">
             <a href="#" className="hover:text-blue-500 transition duration-200">
               Resources
             </a>
-            <SlArrowDown className="mt-1 ml-2 md:text-sm" />
+            <SlArrowDown className="mt-1 ml-2 text-black md:text-sm" />
           </div>
           <a href="#" className="hover:text-blue-500 transition duration-200">
             Pricing

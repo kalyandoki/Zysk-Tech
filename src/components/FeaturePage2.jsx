@@ -6,7 +6,7 @@ import { HiLightningBolt } from "react-icons/hi";
 import { TbMessages } from "react-icons/tb";
 import { TbMessageCircleHeart } from "react-icons/tb";
 
-const FeaturePart2 = () => {
+const FeaturePage2 = () => {
   return (
     <>
       <div className="bg-[#FFFFFF] py-12 px-6 md:px-16">
@@ -110,8 +110,8 @@ const FeaturePart2 = () => {
           <div className="flex items-center justify-center mb-6">
             <img
               src="https://i.imgur.com/G7KO6dF.jpeg"
-              alt="Company Logo"
-              className="mx-auto w-1/4 h-10 rounded-2xl"
+              alt="SI"
+              className="mx-auto w-1/4 h-14 mt-4 rounded-2xl"
             />
           </div>
 
@@ -138,4 +138,4 @@ const FeaturePart2 = () => {
   );
 };
 
-export default FeaturePart2;
+export default FeaturePage2;

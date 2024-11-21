@@ -44,7 +44,7 @@ const FeaturePage3 = () => {
                 Whether you have a team of 2 or 200, our shared team inboxes
                 keep everyone on the same page and in the loop.
               </p>
-              <div className="md:flex items-center justify-center">
+              <div className="md:flex flex items-center justify-center">
                 <a href="#" className="text-[#6941C6] hover:underline">
                   Learn more
                 </a>
@@ -63,7 +63,7 @@ const FeaturePage3 = () => {
                 An all-in-one customer service platform that helps you balance
                 everything your customers need to be happy.
               </p>
-              <div className="md:flex items-center justify-center">
+              <div className="md:flex flex items-center justify-center">
                 <a href="#" className="text-[#6941C6] hover:underline">
                   Learn more
                 </a>
@@ -83,7 +83,7 @@ const FeaturePage3 = () => {
                 can filter, export, and drilldown on the data in a couple of
                 clicks.
               </p>
-              <div className="md:flex items-center justify-center">
+              <div className="md:flex flex items-center justify-center">
                 <a href="#" className="text-[#6941C6] hover:underline">
                   Learn more
                 </a>

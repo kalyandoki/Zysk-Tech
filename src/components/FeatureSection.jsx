@@ -1,4 +1,4 @@
-import FeaturePart2 from "./FeaturePart2";
+import FeaturePage2 from "./FeaturePage2";
 import Logo from "./LogoPage";
 import { FaArrowRight } from "react-icons/fa";
 import { RiVideoLine } from "react-icons/ri";
@@ -53,7 +53,7 @@ const FeatureSection = () => {
           alt="Team Dashboard"
         />
         <Logo />
-        <FeaturePart2 />
+        <FeaturePage2 />
       </div>
     </>
   );

@@ -9,7 +9,7 @@ import { TbMessageCircleHeart } from "react-icons/tb";
 const FeaturePage2 = () => {
   return (
     <>
-      <div className="bg-[#FFFFFF] py-12 px-6 md:px-16">
+      <div className="bg-[#FFFFFF] py-6 px-4 md:px-6">
         <div className="text-center max-w-4xl mx-auto mb-12">
           <p className="text-[#6941C6] text-lg font-medium mb-4">Features</p>
           <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
@@ -25,7 +25,7 @@ const FeaturePage2 = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <TbMessages className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <TbMessages className="text-gray-800 animate-pulse text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Share team inboxes
               </p>
@@ -38,7 +38,7 @@ const FeaturePage2 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <HiLightningBolt className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <HiLightningBolt className="text-gray-800 animate-pulse text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Deliver instant answers
               </p>
@@ -51,7 +51,7 @@ const FeaturePage2 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <MdGroup className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <MdGroup className="text-gray-800 text-6xl mx-auto border animate-pulse shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Manage your team with reports
               </p>
@@ -65,7 +65,7 @@ const FeaturePage2 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <FaSmile className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <FaSmile className="text-gray-800 text-6xl mx-auto border animate-pulse shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Connect with customers
               </p>
@@ -78,7 +78,7 @@ const FeaturePage2 = () => {
           </div>
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <FiLink className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <FiLink className="text-gray-800 text-6xl mx-auto border animate-pulse shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Connect the tools you already use
               </p>
@@ -92,7 +92,7 @@ const FeaturePage2 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <TbMessageCircleHeart className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <TbMessageCircleHeart className="text-gray-800 text-6xl mx-auto animate-pulse border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Our people make the difference
               </p>
@@ -111,7 +111,7 @@ const FeaturePage2 = () => {
             <img
               src="https://i.imgur.com/G7KO6dF.jpeg"
               alt="SI"
-              className="mx-auto w-1/4 h-14 mt-4 rounded-2xl"
+              className="mx-auto w-1/4 h-14 mt-4 rounded-2xl animate-bounce"
             />
           </div>
 

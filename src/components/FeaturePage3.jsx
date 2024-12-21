@@ -20,23 +20,23 @@ const FeaturePage3 = () => {
           </p>
         </div>
 
-        <div className="flex justify-center gap-4 mb-12">
+        <div className="flex justify-center gap-4 md:mb-52">
           <img
             src="https://s3-alpha-sig.figma.com/img/91ca/8938/7f26a92b60f8e7bf4bfe8c9f528cf3c1?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UjMp68SDPTXweu3bYd1bEp~dpwGLzEMbB8m42k5HyVN4XUJyd-DiQq1Jty9ls5VGsQQ1W3sR2qaNI-AhfrENiMfvgLO7EZ~j22ywRb1mkQYWKEVABsggelqDmAyqkmKMfckoNldW~hGrEqWs6AFlw1zz7ha3hDsxWha1vkMsa9mGTmF6SlzvAnCTWhW0Y3qPDGbnaJAFksymYFTPryXcDqy~7~omMpFbNbcBmjOISI0GhOhzN0Vp18JCyXe~0XByLt5Og-VBp8vJYKBdU5l~flN7jAwo6oojLQ0voD1h8ln03uVBgtgEfDh2Q1d9Fwq41tG-MmViEKCuklGDbhT65g__"
             alt="Small Image"
-            className="w-60 md:w-70 h-50 md:h-90 md:mt-12 rounded-lg bg-black p-1"
+            className="w-60 md:w-96 h-50 md:h-96 md:mt-12 rounded-lg bg-black p-1 relative md:left-32 md:top-32 mb-5"
           />
           <img
             src="https://s3-alpha-sig.figma.com/img/081a/4c6e/48bee3c577d90c805ebc6abe73e441d3?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SR~9DeM3vhGlHKTXqXxCLv7xU~J9DMhzVlb9nhLAkmmQdHwgtmcnRzEqg7WwXFOcNtIvLiBTjRYjoGT7uQXK8AHbUTzZpx42v~ozCdmt7qHZj1lKKSIKoa6gPKqfUXn-o8KOTZ-fDnMdb-cjkgkWKG6DX9M-CRhMCFB2zIiKHR~1WTRiLVdrM43n8tKebyUMUtIc3quxvOQoYDRo4I4IuTBNY18XSQpng4IChSOb~38dEboVgA71IqMYd4KHCFzjhwVnCJEi2stv55O5ehPHzMyTg~BqZ~vrqibehhAcYl1iqiSDCYUR1Y4bNLhOfShsTULsjiFZfSHq-e2PVn93hQ__"
             alt="Big Image"
-            className="hidden md:block w-full md:w-1/2 md:h-90 h-full rounded-lg bg-black p-1"
+            className="hidden md:block w-full md:w-full md:h-96 h-full rounded-lg bg-black p-1"
           />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <TbMessages className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <TbMessages className="text-gray-800 animate-pulse text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Share team inboxes
               </p>
@@ -55,7 +55,7 @@ const FeaturePage3 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <HiLightningBolt className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <HiLightningBolt className="text-gray-800 animate-pulse text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Deliver instant answers
               </p>
@@ -74,7 +74,7 @@ const FeaturePage3 = () => {
 
           <div className="flex items-center justify-center bg-white shadow-md rounded-md mb-2">
             <div className="text-center p-6">
-              <MdGroup className="text-gray-800 text-6xl mx-auto border shadow-md p-4 rounded-lg" />
+              <MdGroup className="text-gray-800 animate-pulse text-6xl mx-auto border shadow-md p-4 rounded-lg" />
               <p className="mt-4 mb-4 text-xl font-bold text-gray-800">
                 Manage your team with reports
               </p>

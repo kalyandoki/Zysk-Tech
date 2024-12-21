@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { SlArrowDown } from "react-icons/sl";
 const Navbar = () => {
   const [mobile, setMobile] = useState(false);
   return (
@@ -18,15 +17,23 @@ const Navbar = () => {
           </a>
           <div className="md:flex  font-bold items-center">
             <a href="#" className="hover:text-blue-500 transition duration-200">
-              Product
+              <select>
+                <option value="Products1">Products</option>
+                <option value="Products2">Products_2</option>
+                <option value="Products3">Products_3</option>
+                <option value="Products4">Products_4</option>
+              </select>
             </a>
-            <SlArrowDown className="mt-1 ml-2 text-black md:text-sm" />
           </div>
           <div className="md:flex  font-bold items-center">
             <a href="#" className="hover:text-blue-500 transition duration-200">
-              Resources
+              <select>
+                <option value="Resources">Resources</option>
+                <option value="Resources1">Resources_1</option>
+                <option value="Resources2">Resources_2</option>
+                <option value="Resources3">Resources_3</option>
+              </select>
             </a>
-            <SlArrowDown className="mt-1 ml-2 text-black md:text-sm" />
           </div>
           <a href="#" className="hover:text-blue-500 transition duration-200">
             Pricing
@@ -79,7 +86,12 @@ const Navbar = () => {
                 href="#"
                 className="hover:text-blue-500 transition duration-200"
               >
-                Products
+                <select>
+                  <option value="Products1">Products</option>
+                  <option value="Products2">Products_2</option>
+                  <option value="Products3">Products_3</option>
+                  <option value="Products4">Products_4</option>
+                </select>
               </a>
             </li>
             <li>
@@ -87,7 +99,12 @@ const Navbar = () => {
                 href="#"
                 className="hover:text-blue-500 transition duration-200"
               >
-                Resources
+                <select>
+                  <option value="Resources">Resources</option>
+                  <option value="Resources1">Resources_1</option>
+                  <option value="Resources2">Resources_2</option>
+                  <option value="Resources3">Resources_3</option>
+                </select>
               </a>
             </li>
             <li>

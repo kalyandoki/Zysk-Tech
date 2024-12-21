@@ -1,4 +1,3 @@
-import FeaturePage2 from "./FeaturePage2";
 import Logo from "./LogoPage";
 import { FaArrowRight } from "react-icons/fa";
 import { RiVideoLine } from "react-icons/ri";
@@ -35,7 +34,7 @@ const FeatureSection = () => {
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <div className="flex items-center gap-2 bg-gray-200 text-gray-800 px-6 py-3 rounded-md shadow-md hover:bg-blue-700">
-                <RiVideoLine className="text-gray-500 text-2xl" />
+                <RiVideoLine className="text-gray-500 text-2xl animate-pulse" />
                 <span className="text-sm md:text-base font-medium text-gray-700">
                   Demo
                 </span>
@@ -48,13 +47,12 @@ const FeatureSection = () => {
           </div>
         </div>
         <img
-          className="mt-6 bg-black p-1 rounded-2xl"
+          className="mt-6 bg-black p-1 border-collapse rounded-2xl z-1"
           src="https://s3-alpha-sig.figma.com/img/081a/4c6e/48bee3c577d90c805ebc6abe73e441d3?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SR~9DeM3vhGlHKTXqXxCLv7xU~J9DMhzVlb9nhLAkmmQdHwgtmcnRzEqg7WwXFOcNtIvLiBTjRYjoGT7uQXK8AHbUTzZpx42v~ozCdmt7qHZj1lKKSIKoa6gPKqfUXn-o8KOTZ-fDnMdb-cjkgkWKG6DX9M-CRhMCFB2zIiKHR~1WTRiLVdrM43n8tKebyUMUtIc3quxvOQoYDRo4I4IuTBNY18XSQpng4IChSOb~38dEboVgA71IqMYd4KHCFzjhwVnCJEi2stv55O5ehPHzMyTg~BqZ~vrqibehhAcYl1iqiSDCYUR1Y4bNLhOfShsTULsjiFZfSHq-e2PVn93hQ__"
           alt="Team Dashboard"
         />
-        <Logo />
-        <FeaturePage2 />
       </div>
+      <Logo />
     </>
   );
 };
